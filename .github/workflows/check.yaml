@@ -27,6 +27,7 @@ jobs:
         id: check
         run: |
           echo "run_r_cmd_check=false" >> $GITHUB_OUTPUT
+          echo $GITHUB_OUTPUT
 
   r-cmd:
     name: R CMD Check 🧬
